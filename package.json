@@ -1,0 +1,46 @@
+{
+  "name": "sems-plus-ts",
+  "version": "0.1.0",
+  "description": "Unofficial, read-only TypeScript client for the GoodWe SEMS+ cloud API",
+  "keywords": [
+    "goodwe",
+    "sems",
+    "sems-plus",
+    "solar",
+    "inverter",
+    "pv"
+  ],
+  "license": "MIT",
+  "author": "angelomatel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelomatel/sems-plus-ts.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "smoke": "node --env-file-if-exists=.env scripts/smoke.mjs",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
