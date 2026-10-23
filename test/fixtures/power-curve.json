@@ -1,0 +1,62 @@
+{
+  "code": "00000",
+  "description": "成功",
+  "data": {
+    "dataList": [
+      {
+        "item": "pSystem",
+        "unit": "kW",
+        "powerData": [
+          { "tp": "2026-10-22 12:00:00", "power": 3.6792 },
+          { "tp": "2026-10-22 00:00:00", "power": 0 },
+          { "tp": "2026-10-22 12:01:00", "power": "3.7" }
+        ]
+      },
+      {
+        "item": "pConsum",
+        "unit": "kW",
+        "powerData": [
+          { "tp": "2026-10-22 00:00:00", "power": 1.657 },
+          { "tp": "2026-10-22 12:00:00", "power": -1.63306 },
+          { "tp": "2026-10-22 12:01:00", "power": null }
+        ]
+      },
+      {
+        "item": "pBat",
+        "unit": "kW",
+        "powerData": [
+          { "tp": "2026-10-22 00:00:00", "power": 0 },
+          { "tp": "2026-10-22 12:00:00", "power": -2.09214 }
+        ]
+      },
+      {
+        "item": "pGrid",
+        "unit": "kW",
+        "powerData": [
+          { "tp": "2026-10-22 00:00:00", "power": -1.657 },
+          { "tp": "2026-10-22 12:00:00", "power": 0 },
+          { "tp": "2026-10-22 12:01:00", "power": 0.25 }
+        ]
+      },
+      {
+        "item": "soc",
+        "unit": "%",
+        "powerData": [
+          { "tp": "2026-10-22 00:00:00", "power": 21 },
+          { "tp": "2026-10-22 12:00:00", "power": 42 }
+        ]
+      },
+      {
+        "item": "sell",
+        "unit": "kWh",
+        "currency": "",
+        "powerData": [{ "tp": "2026-10-22 00:00:00", "power": null, "price": "" }]
+      },
+      {
+        "item": "charge",
+        "unit": "kW",
+        "powerData": [{ "tp": "2026-10-22 12:00:00", "power": null, "charge": -2.09214 }]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "00000",
+  "data": {
+    "deviceDetailList": [
+      {
+        "deviceType": "INVERTER",
+        "statusDetailList": [
+          {
+            "status": 1,
+            "snList": ["INV0000000001"],
+            "detailMap": { "INV0000000001": { "name": "Inverter 1" } }
+          }
+        ]
+      },
+      {
+        "deviceType": "SMART_METER",
+        "statusDetailList": [
+          {
+            "status": "1",
+            "snList": ["MTR0000000001", 7],
+            "detailMap": { "MTR0000000001": { "name": "Meter 1", "preSn": "INV0000000001", "subtype": "GM1000" } }
+          }
+        ]
+      },
+      { "deviceType": "DONGLE", "statusDetailList": [{ "status": 0, "snList": ["DNG0000000001"] }] },
+      { "statusDetailList": [{ "status": 1, "snList": ["NO-TYPE"] }] }
+    ]
+  }
+}

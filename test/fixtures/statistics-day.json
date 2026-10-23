@@ -1,0 +1,31 @@
+{
+  "code": "00000",
+  "data": {
+    "production": 71.1,
+    "proSelfConsumRate": 0.9,
+    "dataList": [
+      {
+        "item": "proSystemTotalStats",
+        "unit": "kWh",
+        "statisticsList": [
+          { "date": "2026-10-22", "val": 41.2 },
+          { "date": "2026-10-21", "val": 34.3 }
+        ]
+      },
+      {
+        "item": "proConsumStats",
+        "unit": "kWh",
+        "statisticsList": [
+          { "date": "2026-10-21", "val": "37.6" },
+          { "date": "2026-10-22", "val": 27.8 }
+        ]
+      },
+      { "item": "proPurchaseStats", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": 9.6 }] },
+      { "item": "proGridStats", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": 0 }] },
+      { "item": "proSelfConsumStats", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": 18.3 }] },
+      { "item": "proCharStats", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": 11.9 }] },
+      { "item": "proDischarStats", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": null }] },
+      { "item": "proSomethingNew", "unit": "kWh", "statisticsList": [{ "date": "2026-10-22", "val": 1 }] }
+    ]
+  }
+}
